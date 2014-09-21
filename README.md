@@ -6,9 +6,13 @@
 
 ![](http://img1.ph.126.net/k37p_8bXSc7vrNyzdlEQ2g==/6608503588073885863.gif)
 
+描述：第一和第三个例子因为布局很简单，因此没有使用动态布局，第二个例子是自定义布局＋动态设置数据的例子
+
 ## 使用方法
 
 ### xml中设置：
+
+下面只是把属性介绍一下，下面有些属性不能同时使用
 
 	<info.xiazdong.widget.HScrollListView
         android:id="@+id/menu"
@@ -23,8 +27,13 @@
         app:bottomMargin="20dp"                <!-- 下边距 -->
         app:itemLayoutId="@layout/item_menu"   <!-- 自定义的item的布局 -->
         app:defaultSelectedIndex="2"           <!-- 默认的选中的索引 -->
+        app:singleSelectable="true" 			<!-- 是否可单选 -->
         app:multiSelectable="true"             <!-- 是否可多选 -->
         app:toggleSelf="true"                  <!-- 在选中的情况下是否点击后变成不选中 -->
+        app:isSmoothScroll="true"              <!-- 点击没显示完全的item是否会稍微滑动使得显示完全-->
+        app:toggleSelf="true"                  <!-- 点击选中的item是否恢复到未选中 -->
+        app:clipToMargin="false"				<!-- 概念类似 listview 的 clipToPadding -->
+        app:distribute="false"					<!-- 是否将全部item平均分散在屏幕中 -->
     />
 
 如果每个item只是：
@@ -33,7 +42,7 @@
 * 一行文字(ID必须是 @id/text)
 * 上面一张图片＋下面一行文字(@id/image + @id/text)
 
-那么只需要这样即可，不需要再做什么。
+那么只需要这样即可，不需要再做什么。如同 Demo 中的第一个例子
 
 ### 设置监听事件：
 
