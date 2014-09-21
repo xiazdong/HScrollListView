@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="HScrollListView">
+        <attr name="itemLayoutId" format="reference" />
+        <attr name="textArray" format="reference" />
+        <attr name="imageArray" format="reference" />
+        <attr name="idArray" format="reference" />
+        <attr name="leftMargin" format="reference|dimension" />
+        <attr name="rightMargin" format="reference|dimension" />
+        <attr name="topMargin" format="reference|dimension" />
+        <attr name="bottomMargin" format="reference|dimension" />
+        <attr name="clipToMargin" format="boolean" />
+        <attr name="horizontalSpace" format="reference|dimension" />
+        <attr name="distribute" format="boolean" />
+        <attr name="defaultSelectedIndex" format="integer"/>
+        <attr name="singleSelectable" format="boolean"/>
+        <attr name="multiSelectable" format="boolean"/>
+        <attr name="isSmoothScroll" format="boolean" />
+        <attr name="toggleSelf" format="boolean" />
+    </declare-styleable>
+</resources>

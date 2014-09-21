@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="menu_btn_image">
+        <item>@drawable/ic_menu_01</item>
+        <item>@drawable/ic_menu_02</item>
+        <item>@drawable/ic_menu_03</item>
+        <item>@drawable/ic_menu_04</item>
+        <item>@drawable/ic_menu_05</item>
+        <item>@drawable/ic_menu_06</item>
+        <item>@drawable/ic_menu_07</item>
+        <item>@drawable/ic_menu_08</item>
+        <item>@drawable/ic_menu_09</item>
+        <item>@drawable/ic_menu_10</item>
+    </array>
+    <array name="menu_btn_text">
+        <item>item 1</item>
+        <item>item 2</item>
+        <item>item 3</item>
+        <item>item 4</item>
+        <item>item 5</item>
+        <item>item 6</item>
+        <item>item 7</item>
+        <item>item 8</item>
+        <item>item 9</item>
+        <item>item 10</item>
+    </array>
+    <array name="share">
+        <item>@drawable/ic_moments_normal</item>
+        <item>@drawable/ic_qq_normal</item>
+        <item>@drawable/ic_qqweibo_normal</item>
+        <item>@drawable/ic_qzone_normal</item>
+    </array>
+</resources>
